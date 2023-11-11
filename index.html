@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>CORRIDINHA DA ETEC</h1>
+            <button onclick="start()">LARGADA</button>
+        </div>
+        <div class="road">
+            <div class="pista">
+                <img class="carro1 posicao" src="./imagens/car1r.png" alt="" id="carro1"> 
+                <img class="carro2 posicao" src="./imagens/car2r.png" alt="" id="carro2">
+                </div>   
+            </div>        
+        </div>  
+    </div>
+    <div class="modal1" id="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>CAR1</p>
+            <button id="fechar" onclick="fechar1()">Fechar</button>
+          </div>
+    </div>
+    <div class="modal2" id="modal2">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>CAR2</p>
+            <button id="fechar" onclick="fechar2()">Fechar</button>
+          </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
